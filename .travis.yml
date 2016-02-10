@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.2.1
+
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: BQxsWH+keR7JIIIkIZVzNtBkRYnj/KgX/OzTTtxZeBdEBjr2PReu3vhN8zddeL9hxoB7cS6NxrBb2kzRaK2H+BNCXtNHOMNWNfw/FpSZtA0O4JoHLyICJKRosBpW6LdUv9AwzWqp4kvxwPk9RmPsrljel0VVmxu7Mg7AfdlVFSVnDlz5pVo9TIMjp5JsosTwHVUjyi5v+sT7Wr7DTlwRd44kv7PDOvbZCEHJplabruDpvDPV6S0fRhvKTaEb1RXNgiFCTS5JDZD79jhvySSiYbkl2W3TirlGs/PVNBYZc2hMGcALOeF3Ov/mAjugbZS4I9ttlyWc850+YVEA0Vnczd9JwWMenfLy7UCDhQp7mTnmmlSuKxxPvNkNL768I2JBy7WqI/Qzf2eKeTPcsSOKwECssLkOa7Ch2VEt/Xbc9wznyf6KlEvTSc2YeAMuKBiYq/n21IRAumpAGjH37w8KRtCjcbIrlULP3q74cRP64wDOFnyuiXjoFle0NNu/9I2M4mRoCOZ5hXmkgrw8+8G2Dy91kDd3pP5RvsMf2yieQ3jwvODZO7sVZy0/Rm7XUE7OlgYftsjwhR3U2r4H/cBJDp7kglcOF0bl0NYJtIWyCj6PDXBpAUFR0i9FzM3tuFLiSzIa+lW8mFhqfM9lgtys7x9Nl47JyyiRQjBV1ebCotQ=
+  app: stormy-eyrie-15757
+  on:
+    repo: FreeThoughtHobbyist/sample_app
